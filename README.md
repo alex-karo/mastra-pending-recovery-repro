@@ -4,7 +4,7 @@ This example shows a background task recovery problem in `@mastra/core@1.79.0`.
 
 ## Run
 
-Use Node.js 22.13.0 or later. The example was tested with Node.js 26.11.1 on macOS arm64.
+Use Node.js 22.13.0 or later. No build step is required. The failure occurs at runtime when you run `npm run repro`.
 
 ```sh
 npm ci
@@ -12,6 +12,13 @@ npm run repro
 ```
 
 No API key, agent, LLM provider, or external service is required.
+
+## Tested environment
+
+- Node.js: 26.11.1
+- Package manager: npm 11.20.0
+- OS: macOS 26.5.2, arm64
+- Mastra: `@mastra/core@1.79.0`
 
 ## Expected result
 
