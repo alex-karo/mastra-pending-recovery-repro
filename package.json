@@ -1,0 +1,16 @@
+{
+  "name": "mastra-pending-recovery-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal reproduction of pending background tasks left idle after startup recovery.",
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@mastra/core": "1.79.0"
+  }
+}
